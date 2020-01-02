@@ -1,6 +1,9 @@
 
 #include "Arduino.h"
 
+// Code arduino DUE - emission sinusoidale a 40kHz, ampli PP 3.3V
+//Bug dans l'init -> mauvaise frequence
+
 #define SET_SYNTHESE_TABLE 101
 #define SET_FREQUENCE 102
 #define NECHANT 128
